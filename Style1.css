@@ -15,9 +15,9 @@ border: 1px solid #000000;
 
 #right{
   position: absolute;
-   width: 210px;
-   height: 600px;
-   margin: 0;
+   width: 30%;
+   height: 80%;
+   margin: 30%;
    margin-top: 0px;
    border-right: 1px solid #C6EC8C;
    font-weight: normal;
