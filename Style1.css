@@ -29,7 +29,7 @@ border: 1px solid #000000;
    height: 600px;
    margin: 0;
    margin-top: 0px;
-   border-right: 220px solid #C6EC8C;
+   border-right: 1px solid #C6EC8C;
    font-weight: normal;
 }
 
@@ -39,7 +39,7 @@ border: 1px solid #000000;
    height: 600px;
    margin: 0;
    margin-top: 0px;
-   border-right: 440px solid #C6EC8C;
+   border-right: 1px solid #C6EC8C;
    font-weight: normal;
 }
 
