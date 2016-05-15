@@ -45,7 +45,14 @@ border: 1px solid #000000;
 
 
 
-a:link { color: rgb(0, 0, 153) } 
+a:link { 
+  color: rgb(0, 0, 153);
+  font-weight:normal;
+  
+} 
 a:visited { color: rgb(153, 0, 153) }
-a:hover { color: rgb(0, 96, 255) } 
+a:hover { 
+  color: rgb(0, 96, 255);
+  font-weight:bold;
+} 
 a:active { color: rgb(255, 0, 102) }
