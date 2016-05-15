@@ -6,11 +6,20 @@ padding: 0.5em;
 border: 1px solid #000000;
 }
 
+#navigation {
+   position: absolute;
+   width: 210px;
+   height: 600px;
+   margin: 0;
+   margin-top: 0px;
+   border-right: 1px solid #C6EC8C;
+   font-weight: normal;
+}
 
 .Title { 
 font-family: Verdana, Arial, Helvetica, sans-serif;
 font-weight: bold;
-font-size: 26;
+font-size: 40;
 color: #000000;
 }
 
