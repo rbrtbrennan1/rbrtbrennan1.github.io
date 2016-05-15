@@ -15,11 +15,11 @@ border: 1px solid #000000;
 
 #right{
   position: absolute;
-   width: 30%;
+   width: 33%;
    height: 80%;
-   margin: 60%;
+   margin: 66%;
    margin-top: 0px;
-   border-right: 1px solid #C6EC8C;
+   border-right: 2px solid 0x0000;
    font-weight: normal;
 }
 
