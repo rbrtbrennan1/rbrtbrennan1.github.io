@@ -15,7 +15,7 @@ border: 1px solid #000000;
 
 #right{
   position: absolute;
-   width: 33%;
+   width: 20%;
    height: 80%;
    margin: 64%;
    margin-top: 0px;
@@ -35,7 +35,7 @@ border: 1px solid #000000;
 
 #left {
    position: absolute;
-   width: 30%;
+   width: 60%;
    height: 80%;
    margin: 2%;
    margin-top: 0px;
