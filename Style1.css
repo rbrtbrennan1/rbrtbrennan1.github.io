@@ -6,6 +6,13 @@ padding: 0.5em;
 border: 1px solid #000000;
 }
 
+#centerDoc {
+   position: absolute;
+   padding: 0 0 20px 0; /*top right bottom left*/
+   margin-top: 50px;
+   margin-left: 235px;
+}
+
 #navigation {
    position: absolute;
    width: 210px;
