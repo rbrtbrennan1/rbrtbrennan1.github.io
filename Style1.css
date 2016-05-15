@@ -1,4 +1,16 @@
+
+
+div { 
+background: rgb(204,204,255); 
+padding: 0.5em;
+border: 1px solid #000000;
+}
+
+
 .Title { 
 font-family: Verdana, Arial, Helvetica, sans-serif;
-font-weight: bold; color: #000000;
+font-weight: bold;
+font-size: 26;
+color: #000000;
 }
+
