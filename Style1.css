@@ -8,7 +8,7 @@ color: #000000;
 }
 
 div { 
-background: rgb(77,166,255); 
+background: "bg.jpg"; 
 padding: 0.5em;
 border: 1px solid #000000;
 }
