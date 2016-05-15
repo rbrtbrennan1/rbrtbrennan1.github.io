@@ -14,3 +14,7 @@ font-size: 26;
 color: #000000;
 }
 
+a:link { color: rgb(0, 0, 153) } 
+a:visited { color: rgb(153, 0, 153) }
+a:hover { color: rgb(0, 96, 255) } 
+a:active { color: rgb(255, 0, 102) }
