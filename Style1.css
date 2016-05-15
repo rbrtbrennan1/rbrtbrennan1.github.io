@@ -1,4 +1,11 @@
-body { margin-left: 5%; margin-right: 5%; }
+body { margin-left: 2%; margin-right: 2%; }
+
+.Title { 
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 40;
+color: #000000;
+}
 
 div { 
 background: rgb(77,166,255); 
@@ -6,15 +13,8 @@ padding: 0.5em;
 border: 1px solid #000000;
 }
 
-#centerDoc {
-   position: absolute;
-   padding: 0 0 20px 0; /*top right bottom left*/
-   margin-top: 50px;
-   margin-left: 235px;
-}
-
-#navigation {
-   position: absolute;
+#right{
+  position: absolute;
    width: 210px;
    height: 600px;
    margin: 0;
@@ -23,12 +23,27 @@ border: 1px solid #000000;
    font-weight: normal;
 }
 
-.Title { 
-font-family: Verdana, Arial, Helvetica, sans-serif;
-font-weight: bold;
-font-size: 40;
-color: #000000;
+#centre{
+    position: absolute;
+   width: 210px;
+   height: 600px;
+   margin: 0;
+   margin-top: 0px;
+   border-right: 220px solid #C6EC8C;
+   font-weight: normal;
 }
+
+#left {
+   position: absolute;
+   width: 210px;
+   height: 600px;
+   margin: 0;
+   margin-top: 0px;
+   border-right: 440px solid #C6EC8C;
+   font-weight: normal;
+}
+
+
 
 a:link { color: rgb(0, 0, 153) } 
 a:visited { color: rgb(153, 0, 153) }
