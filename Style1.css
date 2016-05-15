@@ -14,7 +14,7 @@ color: #000000;
 }
 
 div { 
-background: blue; 
+background:rgba(70,155,255,0.5);
 padding: 0.5em;
 border: 1px solid #000000;
 }
