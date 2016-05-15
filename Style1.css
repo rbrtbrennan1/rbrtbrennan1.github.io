@@ -1,4 +1,8 @@
-body { margin-left: 0%; margin-right: 0%; }
+body { 
+  margin-left: 0%; 
+  margin-right: 0%;
+  background: "bg.jpg"; 
+}
 
 .Title { 
 font-family: Verdana, Arial, Helvetica, sans-serif;
