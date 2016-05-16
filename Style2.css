@@ -58,13 +58,16 @@ img.item {
   top: 80%;
   left: 30%;
   
-      position: relative;
+      position: fixed
     
-    animation-name: wiggle;
-    animation-duration: 4s;
+  
 }
 
-  
+  img.item:hover{
+  	  animation-name: wiggle;
+    animation-duration: 4s;
+  	
+  }
  
  @keyframes wiggle {
     0%   { left:0px; top:0px;}
