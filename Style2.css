@@ -31,14 +31,34 @@ img.bg {
   left: 0;
 }
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
+@media screen and (max-width: 1600px) { /* Specific to this particular image */
   img.bg {
     left: 50%;
     margin-left: -512px;   /* 50% */
   }
+  
+   img.item {
+    left: 20%;
+    margin-left: -412px;   /* 50% */
+  }
 }
 
+img.item {
+  /* Set rules to fill background */
+  min-height: 10%;
+  min-width: 100px;
+	
+  /* Set up proportionate scaling */
+  width: 10%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 
+ 
 
 h1 { 
 font-family: Verdana, Arial, Helvetica, sans-serif;
