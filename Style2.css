@@ -39,7 +39,8 @@ img.bg {
   
    img.item {
     left: 20%;
-    margin-left: -412px;   /* 50% */
+    margin-left: 200px;   /* 50% */
+    margin-bottom: 30%; 
   }
 }
 
