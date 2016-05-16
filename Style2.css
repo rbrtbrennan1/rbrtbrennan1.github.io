@@ -71,9 +71,9 @@ img.item {
  
  @keyframes wiggle {
     0%   { width: 5%;; }
-    25%  { width: 10%;}
+    25%  { width: -5%;}
     50%  { width: 5%; }
-    75%  { width: 10%;}
+    75%  { width: -5%;}
     100% { width: 5%; }
 }
 
