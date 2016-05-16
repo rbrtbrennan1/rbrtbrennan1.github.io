@@ -13,8 +13,7 @@ font-weight: bold;
 font-size: 40;
 color: black;
 text-align: center;
- -webkit-transition: width 5s; /* Safari */
- transition: width 5s;
+
 }
 
 p { 
@@ -51,10 +50,7 @@ border: 1px solid #000000;
  
 }
 
-div:hover{
-  
-  width:20%;
-}
+
 
 
 #centre{
@@ -75,9 +71,14 @@ div:hover{
    margin-top: 0px;
    border-right: 1px solid #C6EC8C;
    font-weight: normal;
+  -webkit-transition: width 5s; /* Safari */
+   transition: width 5s;
 }
 
-
+left:hover{
+  
+  width:20%;
+}
 
 a:link { 
   color: rgb(0, 0, 153);
