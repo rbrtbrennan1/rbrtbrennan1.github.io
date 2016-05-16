@@ -2,9 +2,15 @@ body {
   margin-left: 0%; 
   margin-right: 0%;
  background-image:url(./background.jpg); 
- background-size:     cover; 
+ 
  background-repeat:   no-repeat;
  background-attachment: scroll; 
+ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
 }
 
 h1 { 
