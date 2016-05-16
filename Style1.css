@@ -36,10 +36,7 @@ border: 1px solid #000000;
  transition: width 2s;
 }
 
-div:hover{
-  
-  width:40px;
-}
+
 
 #right{
   position: absolute;
@@ -49,7 +46,16 @@ div:hover{
    margin-top: 2px;
    border-right: 2px solid 0x0000;
    font-weight: normal;
+   
+ -webkit-transition: width 5s; /* Safari */
+ transition: width 5s;
 }
+
+#right:hover{
+  
+  width:60%;
+}
+
 
 #centre{
     position: absolute;
