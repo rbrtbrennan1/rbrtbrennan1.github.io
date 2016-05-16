@@ -1,0 +1,91 @@
+body { 
+  margin-left: 0%; 
+  margin-right: 0%;
+ background-image:url(./bg.jpg); 
+ background-size:     cover; 
+ background-repeat:   no-repeat;
+ background-attachment: scroll; 
+}
+
+h1 { 
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 40;
+color: black;
+text-align: center;
+
+}
+
+p { 
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 12;
+color: black;
+text-align: justify;
+ 
+}
+
+
+
+div { 
+background:rgba(70,155,255,0.5);
+padding: 0.5em;
+border: 1px solid #000000;
+
+}
+
+
+
+#right{
+  position: absolute;
+   width: 20%;
+   height: 80%;
+   margin: 75%;
+   margin-top: 2px;
+   border-right: 2px solid 0x0000;
+   font-weight: normal;
+   
+ 
+}
+
+
+
+
+#centre{
+    position: absolute;
+   width: 50%;
+   height: 90%;
+   margin: 0;
+   margin-top: 0px;
+   border-right: 1px solid #C6EC8C;
+   font-weight: normal;
+}
+
+#left {
+   position: absolute;
+   width: 70%;
+   height: 80%;
+   margin: 2%;
+   margin-top: 0px;
+   border-right: 1px solid #C6EC8C;
+   font-weight: normal;
+  -webkit-transition: width 5s; /* Safari */
+   transition: width 5s;
+}
+
+#left:hover{
+  
+  width:20%;
+}
+
+a:link { 
+  color: rgb(0, 0, 153);
+  font-weight:normal;
+  
+} 
+a:visited { color: rgb(153, 0, 153) }
+a:hover { 
+  color: rgb(0, 96, 255);
+  font-weight:bold;
+} 
+a:active { color: rgb(255, 0, 102) }
