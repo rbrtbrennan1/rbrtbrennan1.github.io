@@ -54,21 +54,27 @@ img.item {
   height: auto;
 	
   /* Set up positioning */
-  position: fixed;
+   
   top: 80%;
   left: 30%;
   
-    -webkit-transition: width 2s; /* Safari */
-   transition: width 2s;
-   
-      -webkit-transition: height 2s; /* Safari */
-   transition: height 5s;
+      position: relative;
+    
+    animation-name: wiggle;
+    animation-duration: 4s;
 }
 
- img.item:hover{
-   width:120%;	
-   height:130%;	
- }
+  
+ 
+ @keyframes wiggle {
+    0%   { left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+}
+
+ 
 
 h1 { 
 font-family: Verdana, Arial, Helvetica, sans-serif;
