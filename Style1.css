@@ -27,7 +27,7 @@ text-align: justify;
 
 @keyframes example {
     from {background:rgba(70,155,255,0);}
-    to {background:rgba(70,155,255,0.5);}
+    to {background:rgba(70,155,255,0.6);}
 }
 
 
@@ -36,7 +36,7 @@ background:rgba(70,155,255,0.5);
 padding: 0.5em;
 border: 1px solid #000000;
 animation-name: example;
-animation-duration: 4s;
+animation-duration: 8s;
 }
 
 #right{
