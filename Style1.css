@@ -25,10 +25,6 @@ text-align: justify;
  
 }
 
-@keyframes example {
-    from {background:rgba(70,155,255,0);}
-    to {background:rgba(70,155,255,0.6);}
-}
 
 
 div { 
@@ -42,7 +38,7 @@ border: 1px solid #000000;
 
 div:hover{
   
-  width:30px;
+  width:40px;
 }
 
 #right{
