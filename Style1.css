@@ -13,7 +13,8 @@ font-weight: bold;
 font-size: 40;
 color: black;
 text-align: center;
- 
+ -webkit-transition: width 5s; /* Safari */
+ transition: width 5s;
 }
 
 p { 
@@ -47,13 +48,12 @@ border: 1px solid #000000;
    border-right: 2px solid 0x0000;
    font-weight: normal;
    
- -webkit-transition: width 5s; /* Safari */
- transition: width 5s;
+ 
 }
 
-#right:hover{
+h1:hover{
   
-  width:60%;
+  width:20%;
 }
 
 
