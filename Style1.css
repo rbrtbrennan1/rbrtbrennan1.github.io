@@ -73,7 +73,7 @@ border: 1px solid #000000;
    transition: width 5s;
 }
 
-left:hover{
+#left:hover{
   
   width:20%;
 }
