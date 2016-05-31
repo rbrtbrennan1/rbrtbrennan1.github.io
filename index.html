@@ -148,9 +148,19 @@ div
 
             }
 
+            @keyframes nav_pane{
+                from {height: 10%;}
+                to {
+                  background-color: black;
+                  height: 40%;
+                  color: white;
+            }
+            
             #nav_bar_1:hover>ul
             {
-              height: 50%;
+              animation-name: nav_pane;
+              animation-duration: 4s;
+               
               display: block;
             }
             #nav_bar_2:hover
@@ -340,6 +350,8 @@ a:visited
                     font-weight: bold;
                     text-decoration-line: none;
       }
+      
+      
 a:hover
       {
   		            color: rgb(10, 10, 10);
