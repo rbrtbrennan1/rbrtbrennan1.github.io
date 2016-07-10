@@ -14,68 +14,46 @@
 
 <body>
 
-  <!-- Always shows a header, even in smaller screens. -->
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <header class="mdl-layout__header">
-      <div class="mdl-layout__header-row">
-        <!-- Title -->
-        <span class="mdl-layout-title" >Data Protection Consulting</span>
-        <!-- Add spacer, to align navigation to the right -->
-        <div class="mdl-layout-spacer"></div>
-        <!-- Navigation. We hide it in small screens. -->
-        <nav class="mdl-navigation mdl-layout--large-screen-only">
-          <a class="mdl-navigation__link" href="">Home</a>
-          <a class="mdl-navigation__link" href="">Team</a>
-          <a class="mdl-navigation__link" href="">Services</a>
-          <a class="mdl-navigation__link" href="">Contact</a>
-        </nav>
-      </div>
-    </header>
-    <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">Navigation</span>
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Home</a>
-        <a class="mdl-navigation__link" href="">Team</a>
-        <a class="mdl-navigation__link" href="">Services</a>
-        <a class="mdl-navigation__link" href="">Contact</a>
-      </nav>
-    </div>
-    <main class="mdl-layout__content">
-      <div class="page-content"><!-- Your content goes here --></div>
-    </main>
-  </div>
+  <!-- Simple header with scrollable tabs. -->
+ <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+   <header class="mdl-layout__header">
+     <div class="mdl-layout__header-row">
+       <!-- Title -->
+       <span class="mdl-layout-title">Data Protection Consulting</span>
+     </div>
+     <!-- Tabs -->
+     <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+       <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Home</a>
+       <a href="#scroll-tab-2" class="mdl-layout__tab">Team</a>
+       <a href="#scroll-tab-3" class="mdl-layout__tab">Services</a>
+       <a href="#scroll-tab-4" class="mdl-layout__tab">Contact us</a>
 
-
-  <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--1-col">1</div>
-    <div class="mdl-cell mdl-cell--1-col">1</div>
-    <div class="mdl-cell mdl-cell--1-col">1</div>
-    <div class="mdl-cell mdl-cell--1-col">1</div>
-    <div class="mdl-cell mdl-cell--1-col">1</div>
-    <div class="mdl-cell mdl-cell--1-col">1</div>
-    <div class="mdl-cell mdl-cell--1-col">1</div>
-    <div class="mdl-cell mdl-cell--1-col">1</div>
-    <div class="mdl-cell mdl-cell--1-col">1</div>
-    <div class="mdl-cell mdl-cell--1-col">1</div>
-    <div class="mdl-cell mdl-cell--1-col">1</div>
-    <div class="mdl-cell mdl-cell--1-col">1</div>
-  </div>
-  <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--4-col">4</div>
-    <div class="mdl-cell mdl-cell--4-col">4</div>
-    <div class="mdl-cell mdl-cell--4-col">4</div>
-  </div>
-  <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--6-col">6</div>
-    <div class="mdl-cell mdl-cell--4-col">4</div>
-    <div class="mdl-cell mdl-cell--2-col">2</div>
-  </div>
-  <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">6 (8 tablet)</div>
-    <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">4 (6 tablet)</div>
-    <div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-phone">2 (4 phone)</div>
-  </div>
-
+     </div>
+   </header>
+   <div class="mdl-layout__drawer">
+     <span class="mdl-layout-title">Navigation</span>
+   </div>
+   <main class="mdl-layout__content">
+     <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+       <div class="page-content">hello</div>
+     </section>
+     <section class="mdl-layout__tab-panel" id="scroll-tab-2">
+       <div class="page-content"><!-- Your content goes here --></div>
+     </section>
+     <section class="mdl-layout__tab-panel" id="scroll-tab-3">
+       <div class="page-content"><!-- Your content goes here --></div>
+     </section>
+     <section class="mdl-layout__tab-panel" id="scroll-tab-4">
+       <div class="page-content"><!-- Your content goes here --></div>
+     </section>
+     <section class="mdl-layout__tab-panel" id="scroll-tab-5">
+       <div class="page-content"><!-- Your content goes here --></div>
+     </section>
+     <section class="mdl-layout__tab-panel" id="scroll-tab-6">
+       <div class="page-content"><!-- Your content goes here --></div>
+     </section>
+   </main>
+ </div>
 
 </body>
 
