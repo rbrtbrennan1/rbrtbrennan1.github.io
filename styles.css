@@ -14,11 +14,17 @@
  * limitations under the License.
  */
 
+
 html, body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
-  margin: 0;
-  padding: 0;
+font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif
+ 
+ background: rgb(200, 200, 200);
+
 }
+
+
+
+h3{font-family: font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;}
 .mdl-demo .mdl-layout__header-row {
   padding-left: 40px;
 }
